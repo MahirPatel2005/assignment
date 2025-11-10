@@ -1,6 +1,6 @@
 #include <iostream>
 #define MAX 5
- 
+using namespace std;
 int stack[MAX];
 int top = -1;
  
