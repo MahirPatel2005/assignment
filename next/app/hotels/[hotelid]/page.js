@@ -5,7 +5,7 @@ const hotels = [
 ];
 
 export default async function HotelDetailsPage({ params }) {
-  const { hotelid } = await params; // Await params in Next.js 16
+  const { hotelid } = await params; 
   console.log('hotelid:', hotelid);
   const hotel = hotels.find(h => h.id === hotelid);
 
